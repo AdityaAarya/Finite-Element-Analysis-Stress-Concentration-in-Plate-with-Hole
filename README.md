@@ -95,7 +95,7 @@ if cond > 1e12:
 # Distributed edge loading simulates realistic test conditions
 ```
 
-## Software Engineering Excellence
+## Tool Excellence
 
 ### Code Quality & Architecture
 - **Modular design**: Separate classes for materials, elements, and global solver
@@ -137,8 +137,11 @@ Computational efficiency: O(N³) complexity for direct solver
 
 **Deformed Shape**: This plot shows the exaggerated deformation of the plate under tensile load. The red dots represent the deformed nodes, while the grey dots show their original positions. The displacement is scaled by a factor of 1000 to make the deformation visible. The circular hole becomes slightly elliptical due to the stress distribution.
 
+![Deformed_shape](Deformed_shape_scale1000.png)
 
 **von Mises Stress Distribution**: This contour plot illustrates the stress distribution across the plate. The highest stress (yellow region) is concentrated at the top and bottom edges of the hole, as predicted by theory. The white circle indicates the boundary of the hole.
+
+![von_mises_stress](von_mises_stress.png)
 
 ### Physical Understanding Demonstrated
 - **Stress flow visualization**: Created contour plots showing force redistribution
